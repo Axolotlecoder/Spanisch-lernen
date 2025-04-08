@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spanisch → Englisch Lern-App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Spanisch → Englisch Lern-App</h1>
+  <div class="card">
+    <p><strong>Spanisches Wort:</strong> <span id="spanish-word">Lade...</span></p>
+    <input type="text" id="user-input" placeholder="Deine Übersetzung">
+    <button onclick="checkAnswer()">Antwort prüfen</button>
+    <p id="feedback"></p>
+  </div>
+  <button onclick="nextWord()">Nächstes Wort</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
